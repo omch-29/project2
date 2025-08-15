@@ -148,7 +148,7 @@ a{
 
 @media (max-width: 1000px){
     .hide{
-        display: none;
+        display: none !important;
     }
 }
 .card{
@@ -174,45 +174,22 @@ a{
     font-size: 0.80rem;
     opacity: 0.8;
 }
-/*.footer{
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
 
-}
-.line{
-    width: 90%;
-    
-    border: 1px solid white;
-}*/
 .footer {
     height: 300px;
     display: flex;
     align-items: center;
-    justify-content: center; /* centers the line horizontally */
-    background-color: #121212; /* optional: to see the footer area */
+    justify-content: center;
+    background-color: #121212;
 }
 
 .line {
     width: 90%;
-    height: 1px; /* this makes it horizontal */
+    height: 1px; 
     background-color: white;
     opacity: 0.6;
 }
-/*.music-player{
-    display: flex;
 
-}
-.album{
-    width: 25%;
-}
-.player{
-    width: 50%;
-}
-.controls{
-    width: 25%;
-}*/
 .music-player {
   display: flex;
   align-items: center;
